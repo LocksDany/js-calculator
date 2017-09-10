@@ -1,0 +1,28 @@
+body {
+    background-color:#52796F;
+    color: #2F3E46;
+    font-size: 30px;
+    font-family: 'VT323';
+}
+
+.mainblock{
+    padding: 10px 30px 10px 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #CAD2C5;
+    border-style: solid;
+    border-color: #B8BFB4;
+    border-top-color: #CAD2C5;
+    border-left-color: #CAD2C5;
+    border-radius: 10px;
+    width: 230px;
+}
+
+#resultados{
+    padding: 5px 6px 5px 0px;
+    margin: 30px 0px 20px 0px;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: #BABEC1;
+    text-align: right;
+}

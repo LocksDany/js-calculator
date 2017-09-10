@@ -14,15 +14,31 @@ body {
     border-color: #B8BFB4;
     border-top-color: #CAD2C5;
     border-left-color: #CAD2C5;
-    border-radius: 10px;
+    border-radius: 6px;
     width: 230px;
 }
 
 #resultados{
     padding: 5px 6px 5px 0px;
     margin: 30px 0px 20px 0px;
-    border-style: solid;
+    border-style: dashed;
     border-radius: 4px;
     background-color: #BABEC1;
     text-align: right;
+}
+
+#botones{
+    padding: 0px 0px 0px 0px;
+    margin: -10px 0px 10px -2px;
+}
+
+#botones .btn{
+    font-size: 30px;
+    margin: 4px 0px 0px 3px;
+    padding: 3px 12px 3px 12px;
+}
+
+#equals{
+    margin: 4px 0px -50px 3px!important;
+    padding: 30px 12px 28px 12px!important;
 }

@@ -29,11 +29,19 @@ const giveFunc = (input) => {
             html = "equalsNum()' id='equals";
             return html;
             break;
+        case '*':
+            break;
     }
 }
 
 for(var i = 0; i<teclado.length;i++){
     botones += "<button class='btn btn-default' onclick='"+ giveFunc(teclado[i]) +"'>" + teclado[i] + "</button>";
+}
+
+const multiplyNum = () => {
+    if(resultadoAnterior > 0){
+        
+    }
 }
 
 const btnNum = (input) => {
@@ -52,6 +60,7 @@ const btnNum = (input) => {
 
 const sumNum = () => {
     if(resultadoAnterior > 0){
+        resultados = resultadoAnterior + parseInt(resultados);
         equalsNum();
         resultadoAnterior = parseInt(resultados);
     } else if (resultados != "0"){
@@ -63,7 +72,7 @@ const sumNum = () => {
 
 const equalsNum = () => {
     if(resultadoAnterior > 0){
-        resultados = resultadoAnterior + parseInt(resultados);
+        let a = parseInt(resultados);
         resultados += "";
         $('#resultados').html(resultados);
         resultadoAnterior = 0;
